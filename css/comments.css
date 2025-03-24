@@ -1,0 +1,258 @@
+.comments {
+	float: left;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 0.8125rem;
+	line-height: 1.1875rem;
+	font-weight: 400;
+	position: relative;
+	overflow: hidden;
+}
+
+.comments .conteiner {
+	max-width: 1200px;
+}
+
+.comments__item {
+	border-bottom: 1px solid #b4b4b4;
+	margin-bottom: 1.875rem;
+}
+
+.comments__item:first-child {
+	border-top: 1px solid #b4b4b4;
+	padding-top: 1.875rem;
+}
+
+.comments__wrapper {
+	margin-bottom: 15px;
+}
+
+.comments__prop {
+	display: flex;
+	align-items: center;
+	font-size: 0.75rem;
+	line-height: 1.375rem;
+	font-weight: 400;
+}
+
+.comments__image-block {
+	width: 100%;
+	padding-top: 15px;
+}
+
+.comments__image {
+	width: 100%;
+	max-width: 300px;
+}
+
+.comments__model-block {
+	margin: 15px 0;
+	padding: 0.667rem;
+	background: rgb(247, 247, 248);
+	margin: 0.667rem 0px;
+	display: flex;
+	align-items: center;
+}
+
+.comments__model-image {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 20px;
+}
+
+.comments__model-name {
+	font-size: 14px;
+}
+
+.comments__heading {
+	font-size: 1.5rem;
+	line-height: 1.375rem;
+	font-weight: 400;
+	padding: 0;
+}
+
+.comments__rating {
+	display: flex;
+	margin-right: 0.75rem;
+	padding-left: 0;
+	list-style-type: none;
+}
+
+.comments__rating-wrapper {
+	display: flex;
+}
+
+.comments__rating li {
+	flex-basis: 1rem;
+	width: 1rem;
+	height: 1rem;
+}
+
+.comments__username {
+	display: flex;
+	align-items: center;
+}
+
+.comments__username::after {
+	content: "*";
+	padding: 0 0.3125rem;
+}
+
+.comments__title {
+	padding: 0.25rem 0;
+	font-size: 0.875rem;
+	line-height: 1.375rem;
+	font-weight: 700;
+}
+
+.comments__text {
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+	font-weight: 500;
+	padding-right: 0.3125rem;
+	overflow-wrap: break-word;
+}
+
+.comments__asset {
+	width: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+	padding: 0.625rem 0.625rem 0.625rem 0;
+}
+
+.comments__buttons {
+	display: flex;
+	gap: 0.5rem;
+	-ms-grid-column: 2;
+	-ms-grid-column-span: 2;
+	grid-column: 2/4;
+	padding: 0.1875rem 0 0.1875rem 0.5rem;
+	font-size: 0.75rem;
+	line-height: 1rem;
+	font-weight: 400;
+	color: #8d949e;
+	margin-bottom: 0.625rem;
+}
+
+.comments__button-item:not(:first-child) {
+	cursor: pointer;
+}
+
+.comments__button-date {
+	white-space: nowrap;
+}
+
+.comments__support {
+	background: #f5f5f5;
+	padding: 0.875rem;
+	border-radius: 0.625rem;
+}
+
+.comments__support .comments__text {
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+	font-weight: 500;
+}
+
+.comments__support .comments__username {
+	font-size: 0.9375rem;
+	line-height: 1.375rem;
+	font-weight: 500;
+}
+
+.comments__list {
+	list-style-type: none;
+	padding-left: 0;
+	float: left;
+	width: 100%;
+}
+
+.star-fill {
+	background: url(../images/star_full.svg) no-repeat center/contain;
+}
+
+.publication {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.publication__submit {
+	padding: 10px 15px;
+	background-color: transparent;
+	border: 1px solid #000;
+	color: #000;
+	cursor: pointer;
+}
+
+.comments-rating-block {
+	float: left;
+	width: 100%;
+	padding: 40px;
+	border-radius: 20px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 15px;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.comments-rating-block__image-wrp {
+	float: left;
+	width: 200px;
+	margin-bottom: 15px;
+}
+
+.comments-rating-block__image {
+	float: left;
+	width: 100%;
+}
+
+.comments-rating-block__text {
+	width: 100%;
+	text-align: center;
+	font-size: 16px;
+	line-height: 22px;
+	color: #000;
+	margin-bottom: 5px;
+}
+
+.comments-rating {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.comments-rating-list {
+	display: flex;
+	align-items: center;
+	width: 80px;
+	margin-right: 5px;
+}
+
+.comments-rating-list__item {
+	width: 20%;
+	height: 12px;
+	padding: 0;
+}
+
+.comments-rating__value {
+	font-size: 18px;
+	font-weight: 700;
+	color: #000;
+}
+
+.comments__review-image-wrp {
+	width: 100%;
+	max-width: 200px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.comments__review-image {
+	width: 100%;
+}

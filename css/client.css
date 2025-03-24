@@ -1,0 +1,94 @@
+@font-face {
+	font-family: 'Open Sans';
+	font-weight: 700;
+	src: url('../fonts/OpenSans-Bold-6e12ed18b41b210c67cf09147aaa278e.eot');
+	src: url('../fonts/OpenSans-Bold-8b64954925c72abf5e52d44c6f69b317.woff') format('woff'), url('../fonts/OpenSans-Bold-31d1609399d7eb26aeaf789d0374ecfa.ttf') format('truetype'), url('../images/OpenSans-Bold-d6291f88056601e360ce6cea4bf676f4.svg') format('svg')
+}
+
+
+@font-face {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	src: url('../fonts/OpenSans-Regular-bf267baabdc6d63ff0417cba9fae03f1.eot');
+	src: url('../fonts/OpenSans-Regular-ec45559568d311d618a83a74f89b64a2.woff') format('woff'), url('../fonts/OpenSans-Regular-f29dbb0301e04da3e97b9f789b665ea5.ttf') format('truetype'), url('../images/OpenSans-Regular-f641a7d4e80fd6321135b1a2b4ce8bb1.svg') format('svg')
+}
+
+
+@font-face {
+	font-family: 'DJI Demi';
+	font-weight: 600;
+	src: url('../fonts/Dji-Demi-92558c3a43371e9aa6918445de0b113a.eot');
+	src: url('../fonts/Dji-Demi-ade74acd7ac9192bf8d8967f222f0f60.woff') format('woff'), url('../fonts/Dji-Demi-928a70dddcca68346f654917223fea08.ttf') format('truetype'), url('../images/Dji-Demi-c4458ac4abb8066c235b6b79bdf7719b.svg') format('svg')
+}
+
+body {
+	font-family: 'Open Sans', BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', SimSun, sans-serif
+}
+
+button {
+	font-family: inherit
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:hover {
+	box-shadow: 0 0 0 50px #fff inset
+}
+
+html[lang=ja][data-optimize=new] body {
+	font-family: 'Open Sans', 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', 'Hiragino Kaku Gothic Pro', Osaka, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, sans-serif
+}
+
+.container {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto
+}
+
+.focus-visible {
+	outline: 4px solid #0070d5;
+	border-radius: .1em;
+	box-shadow: none
+}
+
+.focus-visible {
+	outline: 4px solid #0070d5;
+	border-radius: .1em;
+	box-shadow: none
+}
+
+:focus-visible {
+	outline: 4px solid #0070d5;
+	border-radius: .1em;
+	box-shadow: none
+}
+
+body {
+	margin: 0;
+	padding: 0
+}
+
+i {
+	font-style: normal
+}
+
+
+.header {
+	float: left;
+	width: 100%;
+	margin: 0;
+	background-color: #000;
+}
+
+.header-content {
+	float: left;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+}
+
+.header-content__image {
+	height: 35px;
+}

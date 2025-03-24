@@ -1,0 +1,154 @@
+.product-descript-block {
+	float: left;
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0 10px 0;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.product-descript-block.size {
+	border-top: none;
+	margin-bottom: 25px;
+}
+
+.product-name-block,
+.product-size-block {
+	float: left;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.product-name-block__name,
+.product-size-block__name {
+	margin-right: 5px;
+}
+
+.product-name-block span,
+.product-size-block__name span {
+	display: inline;
+}
+
+.product-name-block__value,
+.product-size-block__value {
+	font-weight: 700;
+}
+
+.product-name-block__name.size {
+	position: relative;
+	padding-left: 25px;
+	color: #000 !important;
+	text-decoration: underline;
+}
+
+.product-name-block__name.size:hover {
+	text-decoration: none !important;
+}
+
+.product-name-block__name.size:focus {
+	text-decoration: underline;
+}
+
+.product-name-block__name.size:before {
+	content: '';
+	display: block;
+	float: left;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	background: url('../images/size-icon.png') no-repeat;
+	background-size: 100% 100%;
+}
+
+.product-slider-nav {
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.product-slider-nav__item {
+	width: 35px;
+	height: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	padding: 3px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+.product-slider-nav__item.active {
+	border: 1px solid #000;
+}
+
+.product-slider-nav__image {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.product-descript-list {
+	float: left;
+	width: 100%;
+}
+
+.product-descript-list__item {
+	float: left;
+	width: 100%;
+	display: none;
+}
+
+.product-descript-list__item.active {
+	display: block;
+}
+
+.product-descript-list__item .text-block__paragraph {
+	margin-bottom: 5px;
+}
+
+.product-descript-list__item .text-block__paragraph:last-child {
+	margin-bottom: 0;
+}
+
+.mobile-reverse {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.size-list {
+	float: left;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 7px;
+}
+
+.size-list__item {
+	float: left;
+	background: rgb(255, 255, 255);
+	color: rgb(17, 17, 17);
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	height: 35px;
+	font-size: 14px;
+	border-radius: 4px;
+	padding: 0;
+}
+
+.size-list__item.active {
+	border: 1px solid rgba(0, 0, 0, 1);
+}
